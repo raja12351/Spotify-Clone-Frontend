@@ -81,6 +81,7 @@
     background-color: rgb(34,34,34);
     border-radius: 5px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .text{
     margin-left: 20px;
