@@ -97,6 +97,7 @@
     border-radius: 5px;
     box-sizing: border-box;
     cursor: pointer;
+    padding-left: 15px;
 }
 .text{
     margin-left: 20px;
