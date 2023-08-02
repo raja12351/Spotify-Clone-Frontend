@@ -179,7 +179,7 @@ span>a>img{
     .title{
         display: none;
     }
-    .player{
-        width: 45vw;
+    .player>img{
+        width: 100%;
     }
 }

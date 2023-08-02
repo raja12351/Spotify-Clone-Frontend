@@ -200,3 +200,62 @@
     padding-inline: 2%;
     margin-top: 5px;
 }
+@media screen and (max-width: 992px){
+    .right{
+        display: none;
+    }
+    .basic-detail{
+        display: none;
+    }
+    .extra{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .right{
+        display: none;
+    }
+    .title{
+        display: none;
+    }
+    .player>img{
+        width: 100%;
+    }
+    .heroine>img{
+        width: 76% !important;
+    }
+    .details{
+        width: 40vw;
+        height: 50vh;
+    }
+    .texts{
+       font-size: 1rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .basic-detail{
+        display: none;
+    }
+    .extra{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+    .date-added{
+        display: none;
+    }
+    .album-name{
+        display: none;
+    }
+    .song-part{
+        width: 100%;
+    }
+    .date-sign{
+        display: none;
+    }
+    .album-sign{
+        display: none;
+    }
+}
