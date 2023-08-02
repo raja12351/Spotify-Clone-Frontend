@@ -211,6 +211,12 @@
     .extra{
         display: none;
     }
+    .main-navtag{
+        white-space: nowrap;
+    }
+    .songs-navigation{
+        white-space: nowrap;
+    }
 }
 @media screen and (max-width: 768px) {
     .right{
@@ -258,5 +264,13 @@
     }
     .album-sign{
         display: none;
+    }
+    .main-navtag{
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    .songs-navigation{
+        font-size: 1rem;
+        white-space: nowrap;
     }
 }

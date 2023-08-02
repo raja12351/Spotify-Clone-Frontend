@@ -187,6 +187,12 @@ span>a>img{
     .right{
         display: none;
     }
+    .main-navtag{
+        white-space: nowrap;
+    }
+    .songs-navigation{
+        white-space: nowrap;
+    }
 }
 @media screen and (max-width: 768px) {
     .right{
@@ -197,5 +203,21 @@ span>a>img{
     }
     .player>img{
         width: 100%;
+    }
+    .main-navtag{
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    .songs-navigation{
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    .other-navtag{
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    .install-app{
+        font-size: 1rem;
+        white-space: nowrap;
     }
 }
