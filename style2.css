@@ -93,6 +93,9 @@
     display: flex;
     border-bottom: 0px solid rgb(34,34,34);
     box-shadow: 0px 0px 4px black;
+    position: sticky;
+    top: -12vh;
+    background: linear-gradient(180deg, #90AEA7 0%, #000 100%);
 }
 .heroine{
     padding-top: 5%;
@@ -123,7 +126,7 @@
     margin-top: 10px;
 }
 .hash{
-    margin-right: 3.5vw;
+    margin-right: 5vw;
 }
 .title-sign{
     margin-right: 20vw;
@@ -132,7 +135,7 @@
     font-weight: 400;
 }
 .album-sign{
-    margin-right: 20vw;
+    margin-right: 17vw;
     font-family: Circular Std;
     font-size: 15px;
     font-weight: 400;
@@ -158,12 +161,15 @@
 }
 .song-name{
     margin-right: 8vw;
+    font-family: Circular Std;
 }
 .album-name{
     margin-right: 9vw;
+    font-family: Circular Std;
 }
 .date-added{
     margin-right: 12vw;
+    font-family: Circular Std;
 }
 .dotsm{
     font-size: 30px;
@@ -175,6 +181,7 @@
     margin-right: 1vw;
     font-size: 16px;
     font-weight: 600;
+    font-family: Circular Std;
 }
 .basic-detail{
     display: flex;
